@@ -1,0 +1,43 @@
+\documentclass[dvipdfmx,a4j,12pt]{jsarticle}
+\usepackage{amsmath,amssymb}
+\usepackage{mathtools,amssymb}
+\usepackage{bm}
+\usepackage{ascmac}
+\usepackage{graphicx}
+\usepackage[dvipdfmx]{color}
+\usepackage{tikz}
+\usepackage[version=4]{mhchem}
+\usepackage{xcolor}
+\usepackage{here}
+\usepackage{wrapfig}
+\usepackage{xr}
+\usepackage{subfiles}
+\usetikzlibrary{intersections,calc,arrows.meta}
+
+\title{大学物理RTA}
+\author{zerviel}
+
+
+\begin{document}
+\maketitle
+
+\part*{Introduction}
+    \subfile{parts/introduction/introduction.tex}    
+\part{物理数学}
+    \subfile{parts/part1/part1-mathforphysics.tex}
+\part{力学}
+    \subfile{parts/part2/part2-mechanics.tex}
+\part{解析力学}
+    \subfile{parts/part3/part3-analysismecanics.tex}
+\part{量子力学}
+    \subfile{parts/part4/part4-quantummechanics.tex}
+\part{統計力学}
+    \subfile{parts/part5/part5-statisticalmechanics.tex}
+\part{熱力学}
+
+\part{電磁気学}
+
+\part{相対論}
+
+
+\end{document}
